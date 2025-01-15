@@ -10,7 +10,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b yaap-15 https://github.com/Mayuresh2543/local_manifests.git .repo/local_manifests
+git clone -b yaap-15 https://github.com/Khnome/local_manifests.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -21,13 +21,13 @@ echo "============================"
 
 # Cloning custom apps
 #rm -rf packages/apps/Settings
-#git clone https://github.com/Mayuresh2543/yaap_packages_apps_Settings.git packages/apps/Settings
+#git clone https://github.com/Khnome/yaap_packages_apps_Settings.git packages/apps/Settings
 #echo "Clone success"
 
 # Export
-export BUILD_USERNAME=Mayuresh
+export BUILD_USERNAME=Khnome
 export BUILD_HOSTNAME=crave
-export TZ="Asia/India"
+export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
 
 # Set up build environment
