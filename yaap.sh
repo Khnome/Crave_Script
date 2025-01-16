@@ -10,7 +10,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b yaap-a15 https://github.com/Khnome/local_manifests.git .repo/local_manifests
+# uncom later git clone -b yaap-a15 https://github.com/Khnome/local_manifests.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
