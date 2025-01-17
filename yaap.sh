@@ -10,7 +10,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-# uncom later git clone -b yaap-a15 https://github.com/Khnome/local_manifests.git .repo/local_manifests
+git clone -b yaap-a15 https://github.com/Khnome/local_manifests.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -27,6 +27,7 @@ echo "============================"
 # Export
 export BUILD_USERNAME=Khnome
 export BUILD_HOSTNAME=crave
+# export BUILD_BROKEN_DISABLE_BAZEL_SANDBOXING=1
 export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
 
