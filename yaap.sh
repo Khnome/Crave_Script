@@ -35,7 +35,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch yaap_stone-ap4a-userdebug
+lunch yaap_stone-userdebug
 echo "============="
 
 # Build rom
