@@ -3,10 +3,7 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
-echo "=================="
-echo "Repo init success"
-echo "=================="
+
 
 # Clone local_manifests repository
 git clone -b rising-a15 https://github.com/Khnome/local_manifests.git .repo/local_manifests
