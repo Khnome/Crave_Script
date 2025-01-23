@@ -26,7 +26,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Riseup
-riseup lineage_stone-ap4a-userdebug
+riseup stone ap4a-userdebug
 echo "============="
 
 # Build rom
