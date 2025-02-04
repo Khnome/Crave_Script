@@ -6,7 +6,7 @@ rm -rf .repo/local_manifests/
 
 
 # Clone local_manifests repository
-git clone -b rising-a15 https://github.com/Khnome/local_manifests.git .repo/local_manifests
+git clone -b matrix https://github.com/Khnome/local_manifests.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -25,10 +25,7 @@ echo "======= Export Done ======"
 source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-# Riseup
-riseup stone userdebug
+# Brunch
+brunch stone userdebug
 echo "============="
-
-# Build rom
-rise b
 
